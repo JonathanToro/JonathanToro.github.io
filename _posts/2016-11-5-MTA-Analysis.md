@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Optimizing staff allocation to produce the greatest exposure to target demographic
 ---
 

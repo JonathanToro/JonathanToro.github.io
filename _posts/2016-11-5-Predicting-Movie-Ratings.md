@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Can analytics help us identify critically acclaimed movies?
 ---
 
