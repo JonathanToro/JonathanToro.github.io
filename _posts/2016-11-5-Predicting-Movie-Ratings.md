@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Can analytics help us identify critically acclaimed movies?
 ---
 
