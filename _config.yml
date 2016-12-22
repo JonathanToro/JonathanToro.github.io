@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Jonathan Toro"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Data Scientist from NYC"
+  bio              : "Data Scientist from NYC"
   location         : "New York, New York"
   email            : "jonathan.toro@baruchmail.cuny.edu"
   uri              :
