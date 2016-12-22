@@ -20,7 +20,7 @@ Another visualization of the obesity rates by state.
 
 ![alt text]({{ site.baseurl }}/images/Selection_029.png)
 
-Combining all the data sets gave me around 500 features. There are only 3142 counties so I had to reduce the dimensionality of the data. I did so by adding random noise to the data and running a random forest model several times to determine the most important features that contribute to obesity rates. We were left with around 20 features. My next step was experimenting with several classification algorithms with these 20 features. The graph below shows the ROC score of all the different models that were used. We can see that Ada Boosted Trees, Gradient Boosted Trees, and Logistic Regression all had a similar performance. For the sake of interpetation, I decided to further my analysis with Logistic Regression.
+Combining all the data sets gave me around 500 features. There are only 3142 counties so I had to reduce the dimensionality of the data. I did so by adding random noise to the data and running a random forest model several times to determine the most important features that contribute to obesity rates. My next step was experimenting with several classification algorithms with the 20 features that my random forest model selected. The graph below shows the ROC score of all the different models that were used. We can see that Ada Boosted Trees, Gradient Boosted Trees, and Logistic Regression all had a similar performance. For the sake of interpetation, I decided to further my analysis with Logistic Regression.
 
 ![alt text]({{ site.baseurl }}/images/Selection_030.png)
 
