@@ -24,7 +24,11 @@ Combining all the data sets gave me around 500 features. There are only 3142 cou
 
 ![alt text]({{ site.baseurl }}/images/Selection_030.png)
 
-The chart below shows the confusion matrix for the logistic regression model. We can see that it performed generally well with both classes. The precision and recall scores were both 0.71. The features that gave a higher probability of having high obesity rates were counties with high rates of: 
+The chart below shows the confusion matrix for the logistic regression model. We can see that it performed generally well with both classes. The precision and recall scores were both 0.71. 
+
+![alt text]({{ site.baseurl }}/images/Selection_031.png)
+
+The features that gave a higher probability of having high obesity rates were counties with high rates of: 
 
 1. No exercise
 2. Diabetes
@@ -45,10 +49,6 @@ The features that gave a lower probability of having high obesity rates were cou
 4. Dentist rate
 5. Depression
 
-These results can imply that educating people younger than 19 years about diet and exercise is an effective way of fighting obesity. In addition, race and culture has an affect on obesity.
-
-![alt text]({{ site.baseurl }}/images/Selection_031.png)
-
-The graph below shows the predictions of the counties with the missing data along with the data from the training set. Orange means that the county has an obesity rate higher than the median and brown means the counties have an obesity rate lower than the median.
+These results can imply that educating people younger than 19 years about diet and exercise is an effective way of fighting obesity. In addition, race and culture has an affect on obesity. The graph below shows the predictions of the counties with the missing data along with the data from the training set. Orange means that the county has an obesity rate higher than the median and brown means that the county has an obesity rate lower than the median.
 
 ![alt text]({{ site.baseurl }}/images/Selection_033.png)
