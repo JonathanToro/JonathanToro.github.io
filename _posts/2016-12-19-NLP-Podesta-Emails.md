@@ -25,6 +25,6 @@ We can see that some of these topics are conversations you would expect from a p
 
 ![alt text]({{ site.baseurl }}/images/Selection_047.png)
 
-![alt text]({{ site.baseurl }}/images/network2.pdf)
+[graph](https://drive.google.com/open?id=0B5BGdclzU-5neDVnd2xvdXFZWkk)
 
 ![alt text]({{ site.baseurl }}/images/Selection_049.png)
