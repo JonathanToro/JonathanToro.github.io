@@ -1,6 +1,10 @@
 ---
 layout: single
 title: Can analytics help us identify critically acclaimed movies?
+author_profile: true
+read_time: true
+comments: true
+share: true
 ---
 
 I have always been a fan of all the Hollywood classics that is so deeply ingrained in American culture. Casablanca, The Bridge of the River Kwai, Star Wars, Jaws, and many other movies are staples of American cinema. It may be obvious now that these movies are phenomenal, but before these movies were released production companies had no idea whether their audience would like the movie. Production companies would sign famous actors and directors to attract a bigger audience, but often these two factors doesn't mean the movie will be critically acclaimed. I was curious to see if there was any way we can predict the score of a movie before it is released. Therefore, I decided to look at the web for data and see which factors are the most important in producing a quality movie. 
