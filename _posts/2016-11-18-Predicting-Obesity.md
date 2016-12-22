@@ -46,7 +46,7 @@ The features that gave a lower probability of having high obesity rates were cou
 1. Few fruits and vegetables consumption
 2. Black population
 3. Population between ages 19-64
-4. Dentist rate
+4. Dentist visits
 5. Depression
 
 These results can imply that educating people younger than 19 years about diet and exercise is an effective way of fighting obesity. In addition, race and culture has an affect on obesity. The graph below shows the predictions of the counties with the missing data along with the data from the training set. Orange means that the county has an obesity rate higher than the median and brown means that the county has an obesity rate lower than the median.
