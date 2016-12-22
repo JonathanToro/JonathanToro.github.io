@@ -24,3 +24,5 @@ It's important to mention that the output of a LDA model returns words associate
 We can see that some of these topics are conversations you would expect from a presidential campaign such as the economy, climate, energy, and law. One of the controversial topics that the model returned is the eighth one listed above. However, it is important to note that LDA is often prone to creating topics that are not easily interpretable by humans so some of my interpretations of my results could be wrong. The picture below shows the words belonging to each topic. You can look for yourself and interpret my results.
 
 ![alt text]({{ site.baseurl }}/images/Selection_047.png)
+
+![alt text]({{ site.baseurl }}/images/network2.pdf)
