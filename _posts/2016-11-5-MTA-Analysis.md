@@ -1,6 +1,10 @@
 ---
 layout: single
 title: Optimizing staff allocation to produce the greatest exposure to target demographic
+author_profile: true
+read_time: true
+comments: true
+share: true
 ---
 
 For my first data science project I analyzed the MTA turnstile data that is provided on <http://web.mta.info/developers/turnstile.html>. We were given a hypothetical scenario where an organziation called WomenTechWomenYes (WTWY) is seeking advice to find interested individuals to participate in their gala and to raise awareness for their cause. This organization wanted to deploy their teams at the entrances of subway stations. These teams would then collect email addresses to people who were interested and send them free tickets to their gala. WTWY was having trouble deciding where to deploy their street teams because of the enormous size of the MTA transit system so my job was to explore the data available online to give them recommendations of how WTWY can optimize their limited resources.
