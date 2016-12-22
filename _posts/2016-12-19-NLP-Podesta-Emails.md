@@ -32,6 +32,6 @@ I created some visualizations of John Podesta's email network. These graphs were
 
 ![alt text]({{ site.baseurl }}/images/Selection_049.png)
 
-In order to better visualize the network, I only included the top 100 emails that recieved the most activity in the network. The size of the node is relative to how much activity an email address has received.
+In order to better visualize the network, I only included the top 100 email addresses that recieved the most activity in the network. The size of the node is relative to how much activity an email address has received.
 
 ![alt text]({{ site.baseurl }}/images/top_people2-1.png)
