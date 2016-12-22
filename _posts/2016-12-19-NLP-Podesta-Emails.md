@@ -1,6 +1,10 @@
 ---
 layout: single
 title: Analyzing Wikileaks using Unsupervised Learning Methods
+author_profile: true
+read_time: true
+comments: true
+share: true
 ---
 This election will be one of the most memorable events in US history because of the controversies behind both candidates. On one side we have a candidate with no political experience with an unorthodox background. On the other side we have a candidate whose entire political career is plagued by scandals. Wikileaks, a multi-national
 media organization, has been making headlines recently because of their leaks of John Podesta's emails who is Hillary Clinton's campaign manager. Starting in October and ending on election day Wikileaks has been releasing thousands of emails everyday that belonged to John Podesta. It was through these emails that we found out many shocking stories of corruption and deceit from the Clinton family enterprise. This sparked my interest so I decided to analyze these emails using a machine learning approach specifically by using unsupervised learning methods.
