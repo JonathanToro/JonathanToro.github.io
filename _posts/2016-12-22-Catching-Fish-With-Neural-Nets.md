@@ -26,6 +26,8 @@ I spend the most of my time experimenting with the parameters on step 6. There a
 
 My results from using the raw data with augmentation have been exceptional. Howerever, there are improvements that can be made. The following slide illustrates my next steps to improve on my results.
 
+![alt text]({{ site.baseurl }}/images/future_work_fish.PNG)
+
 Notice how in the top left image the fish only takes up a tiny part of the image. This is part of the image is what we need in order to accurately classify the image. Thus, everything surrounding the fish such as the boat, fisherman, and ocean are just random noise that we don't care about. In the future, I would like to:
 
 1. Train a CNN to detect where the fish in the image is
