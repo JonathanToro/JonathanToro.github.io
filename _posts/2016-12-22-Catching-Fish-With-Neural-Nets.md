@@ -20,18 +20,18 @@ A CNN is normally made up of a few layers. The procedure to achieve transfer lea
 5. Rebuild the final layer of the CNN to classify your images
 6. Feed your dataset into the CNN
 
-I spend the most of my time experimenting with the parameters on step 6. There are multiple optimizers that could be used to classify my images such as Stochastic Gradient Descent (SGD), RMSprop, Adagrad, Adadelta, and many more. In each of these optimizers, I could choose many different parameters such as the learning rate, momentum, learning decay, and many more. I achieved my best results when I used RMSprop with a learning rate of 0.0001 on the InceptionV3 model which gave me a 95% validation accuracy and a loss of 0.99. My best results when using the VGG-16 model was a 90% validation accuracy and a loss of 1.5. The VGG-16 model still performed fairly well, but the InceptionV3 model had a higher accuracy and a much lower loss. 
+I spend the most of my time experimenting with the parameters on step 6. There are multiple optimizers that could be used to classify my images such as Stochastic Gradient Descent (SGD), RMSprop, Adagrad, Adadelta, and many more. In each of these optimizers, I could choose many different parameters such as the learning rate, momentum, learning decay, and many more. I achieved my best results when I used RMSprop with a learning rate of 0.0001 on the InceptionV3 model which gave me a 95% validation accuracy and a loss of 0.99. My best results when using the VGG-16 model was a 90% validation accuracy and a loss of 1.5. The VGG-16 model still performed fairly well, but the InceptionV3 model had a higher accuracy and a much lower loss.
 
 ## Future Work
 
-My results from using the raw data with augmentation have been exceptional. Howerever, there are improvements that can be made. The following slide illustrates my next steps to improve on my results.
+My results from using the raw data with augmentation have been exceptional. Howerever, there are improvements that can be made. The following slide illustrates my next steps to improve my results.
 
 ![alt text]({{ site.baseurl }}/images/future_work_fish.PNG)
 
-Notice how in the top left image the fish only takes up a tiny part of the image. This is part of the image is what we need in order to accurately classify the image. Thus, everything surrounding the fish such as the boat, fisherman, and ocean are just random noise that we don't care about. In the future, I would like to:
+Notice in the top left image that the fish only takes up a tiny part of the image. This part of the image is what we need in order to accurately classify the image. Thus, everything surrounding the fish such as the boat, fisherman, and ocean are just random noise that we don't care about. In the future, I would like to:
 
-1. Train a CNN to detect where the fish in the image is
-2. Crop out everything surrounding the image leaving just only the fish
+1. Train a CNN to detect where the fish is in the iamge
+2. Crop out everything surrounding the fish
 3. Feed the new refined image into my original model
 
 ## Final Thoughts
