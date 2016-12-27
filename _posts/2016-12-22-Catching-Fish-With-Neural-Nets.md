@@ -7,8 +7,6 @@ comments: true
 share: true
 ---
 
-### Motivation
-
 Illegal fishing poses a major threat to our marine ecosystems and global seafood supplies. It is reported that as much as 33% of the total fish caught in the world happens through unreported and illegal means. The Nature Conservancy, a charitable environmental organization, is seeking to installing cameras on fisherman's boats to monitor their activities. However, the amount of raw data produced by these cameras is enormous making it cumbersome and expensive to monitor manually. In order to combat this problem, The Nature Conservancy created a competition on Kaggle where they seek help for automating the monitoring process. I found this competition particularly interesting because the work done in this competition can make a true difference in the conservation of the environment. Therefore, I decided to participate in this competition.
 
 The data provided in the competition included 3777 photos of fisherman catching various types of fish such as Albacore Tuna, sharks, Moonfish, Dolphinfish, and other species. There are 7 classes of fish and another class where there would be no fish in the picture. The following image shows all the classes of fish in the data.
