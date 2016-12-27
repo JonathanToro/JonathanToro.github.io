@@ -24,7 +24,9 @@ A CNN is normally made up of a few layers. The procedure to achieve transfer lea
 5. Rebuild the final layer of the CNN to classify your images
 6. Feed your dataset into the CNN
 
-I spend the most of my time experimenting with the parameters on step 6. There are multiple optimizers that could be used to classify my images such as Stochastic Gradient Descent (SGD), RMSprop, Adagrad, Adadelta, and many more. In each of these optimizers, I could choose many different parameters such as the learning rate, momentum, learning decay, and many more. I achieved my best results when I used RMSprop with a learning rate of 0.0001 on the InceptionV3 model which gave me a 95% validation accuracy and a loss of 0.99. My best results when using the VGG-16 model was a 90% validation accuracy and a loss of 1.5. The VGG-16 model still performed fairly well, but the InceptionV3 model had a higher accuracy and a much lower loss.
+I spend the most of my time experimenting with the parameters on step 6. There are multiple optimizers that could be used to classify my images such as Stochastic Gradient Descent (SGD), RMSprop, Adagrad, Adadelta, and many more. In each of these optimizers, I could choose many different parameters such as the learning rate, momentum, learning decay, and many more. I achieved my best results when I used RMSprop with a learning rate of 0.0001 on the InceptionV3 model which gave me a 95% validation accuracy and a loss of 0.99. My best results when using the VGG-16 model was a 90% validation accuracy and a loss of 1.5. The VGG-16 model still performed fairly well, but the InceptionV3 model had a higher accuracy and a much lower loss. The following slide visualizes my results. It compares the InceptionV3 model with the baseline model which predicts the most frequent class for every image.
+
+![alt text]({{ site.baseurl }}/images/fish_model.PNG)
 
 ## Future Work
 
