@@ -23,4 +23,4 @@ We looked at the demographics of NYC by zip code after finding out where and whe
 
 ![alt text]({{ site.baseurl }}/images/demographic.png)
 
-Finally after looking at both graphs we were able conclude where to deploy WTWY's staff. The 5 stations are 14th Street Union Square, 59th Street lines 456QNR, 72nd Street lines 123, 66th Street Lincoln Square, and 49th Street - 7th Ave. These recommendations were generated after taking traffic and demographics into consideration. 
+Finally, we were able conclude where to deploy WTWY's staff. The 5 stations are 14th Street Union Square, 59th Street lines 456QNR, 72nd Street lines 123, 66th Street Lincoln Square, and 49th Street - 7th Ave. These recommendations were generated after taking traffic and demographics into consideration. 
